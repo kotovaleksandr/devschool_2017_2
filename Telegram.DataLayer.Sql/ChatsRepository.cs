@@ -97,7 +97,7 @@ namespace Telegram.DataLayer.Sql
 				using (var command = connection.CreateCommand())
 				{
 					command.CommandText = "select userId from chatmember where chatid = @chatid";
-					command.Parameters.AddWithValue("chatid", id);
+					command.Parameters.AddWithValue("@chatid", id);
 					using (var reader = command.ExecuteReader())
 					{
 						while (reader.Read())
