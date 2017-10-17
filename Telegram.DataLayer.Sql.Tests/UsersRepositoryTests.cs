@@ -60,6 +60,7 @@ namespace Telegram.DataLayer.Sql.Tests
 			var chatRepository = new ChatsRepository(ConnectionString, usersRepository);
 			var chat = chatRepository.Create(new[] { user.Id }, chatName);
 			var userChats = chatRepository.GetUserChats(user.Id);
+
 			//asserts
 			Assert.AreEqual(chatName, chat.Name);
 			Assert.AreEqual(user.Id, chat.Members.Single().Id);
