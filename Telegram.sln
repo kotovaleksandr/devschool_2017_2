@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.DataLayer.Sql.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Api", "Telegram.Api\Telegram.Api.csproj", "{F11F785A-963A-4A38-98F8-C4CCF9A36F24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLog", "TestLog\TestLog.csproj", "{8DCE8F5C-5293-4404-8D84-E8049CA685BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F11F785A-963A-4A38-98F8-C4CCF9A36F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11F785A-963A-4A38-98F8-C4CCF9A36F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11F785A-963A-4A38-98F8-C4CCF9A36F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCE8F5C-5293-4404-8D84-E8049CA685BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCE8F5C-5293-4404-8D84-E8049CA685BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCE8F5C-5293-4404-8D84-E8049CA685BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCE8F5C-5293-4404-8D84-E8049CA685BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
